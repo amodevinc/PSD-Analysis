@@ -1,0 +1,84 @@
+{
+  "component_models": {
+    "Entry/Exit Sensor": {
+      "log_rho": 0.5741787452551915,
+      "log_lambda": 7.570430484782977,
+      "coef": {
+        "Q('Station_Daily_Runs_std')": 0.2267942233196269,
+        "Q('Location_Type_EN_Underground')": 0.09438042032650888
+      }
+    },
+    "Motor": {
+      "log_rho": 0.5654565393473062,
+      "log_lambda": 7.621976563457903,
+      "coef": {
+        "Q('Station_Daily_Runs_std')": 0.11247343141326274,
+        "Q('Location_Type_EN_Underground')": 0.05276931056987339
+      }
+    },
+    "Emergency Door Sensor": {
+      "log_rho": 0.42800306239173136,
+      "log_lambda": 7.504705201942748,
+      "coef": {
+        "Q('Station_Daily_Runs_std')": 0.22964407570579037,
+        "Q('Location_Type_EN_Underground')": 0.1214726411052218,
+        "Q('Location_Type_EN_Unknown')": 0.1369340652070672
+      }
+    },
+    "DCU": {
+      "log_rho": 0.42160830076955974,
+      "log_lambda": 7.717148900363569,
+      "coef": {
+        "Q('Station_Daily_Runs_std')": 0.16359457004273475,
+        "Q('Location_Type_EN_Underground')": 0.1726423291732497
+      }
+    },
+    "Open/Close Sensor": {
+      "log_rho": 0.6236731713257676,
+      "log_lambda": 7.6787368337557576,
+      "coef": {
+        "Q('Station_Daily_Runs_std')": 0.04896279364165483,
+        "Q('Location_Type_EN_Underground')": 0.20732354251968815
+      }
+    },
+    "Electrical Stop": {
+      "log_rho": 0.574526741214873,
+      "log_lambda": 7.877279823110371,
+      "coef": {
+        "Q('Station_Daily_Runs_std')": 0.17815984125460987,
+        "Q('Location_Type_EN_Underground')": -0.1122447377709004
+      }
+    },
+    "Obstacle Sensor": {
+      "log_rho": 0.5493520760485523,
+      "log_lambda": 7.874903141889109,
+      "coef": {
+        "Q('Station_Daily_Runs_std')": 0.19109635962825186,
+        "Q('Location_Type_EN_Underground')": 0.1030727395256658
+      }
+    },
+    "Position Sensor": {
+      "log_rho": 0.6497753365215213,
+      "log_lambda": 7.633194831529067,
+      "coef": {
+        "Q('Station_Daily_Runs_std')": 0.2009484169791757,
+        "Q('Location_Type_EN_Underground')": 0.10870270375586304
+      }
+    },
+    "Door Detection Sensor": {
+      "log_rho": 0.6816863069378504,
+      "log_lambda": 7.674197178086524,
+      "coef": {
+        "Q('Station_Daily_Runs_std')": 0.13809819425248748,
+        "Q('Location_Type_EN_Underground')": -0.02298565821586512,
+        "Q('Location_Type_EN_Unknown')": -0.2677660369619633
+      }
+    }
+  },
+  "standardization_stats": {
+    "Station_Daily_Runs": {
+      "mean": 132.926364099949,
+      "std": 73.73037211228221
+    }
+  }
+}
